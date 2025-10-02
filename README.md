@@ -6,7 +6,7 @@ A responsive landing page for an online apparel store featuring modern design, s
 
 ### Desktop View
 ![Desktop Header](screenshots/Screenshot%202025-10-02%20at%2015.16.00.png)
-*Hero section with gradient background and navigation*
+*Hero section*
 
 ![Desktop Products](screenshots/Screenshot%202025-10-02%20at%2015.16.09.png)
 *Product grid showing 3-column layout*
