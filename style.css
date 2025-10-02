@@ -1,0 +1,376 @@
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+/* Reseting default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body base styles */
+body {
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ============================================
+   HEADER & NAVIGATION STYLES
+   ============================================ */
+
+/* Header with gradient background */
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Navigation bar spacing */
+.navbar {
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+/* Brand logo  */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white !important;
+}
+
+/* Navigation link styles */
+.nav-link {
+  color: white !important;
+  margin: 0 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+/* Navigation link hover effect */
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+/* Mobile menu toggle button */
+.navbar-toggler {
+  background-color: white;
+}
+
+/* ============================================
+   HERO SECTION STYLES
+   ============================================ */
+
+/* Hero section spacing and alignment */
+.hero-section {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+/* Hero heading with animation */
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease;
+}
+
+/* Hero paragraph with animation */
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease;
+}
+
+/* Hero button with animation */
+.hero-content .btn {
+  animation: fadeInUp 1.2s ease;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+}
+
+/* Fade-in animation for hero content */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   PRODUCTS SECTION STYLES
+   ============================================ */
+
+/* Products section spacing and background */
+.products-section {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+/* Section title styling */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Product card container */
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Product card hover effect - lift up */
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image container */
+.product-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+/* Product image styling */
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Product image zoom effect on hover */
+.product-card:hover .product-image img {
+  transform: scale(1.1);
+}
+
+/* Product information container */
+.product-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Product title styling */
+.product-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Product description styling */
+.product-info p {
+  color: #666;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  font-size: 0.95rem;
+}
+
+/* Product price styling */
+.product-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+/* Shop Now button styling */
+.btn-shop {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+/* Shop button hover effect */
+.btn-shop:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  color: white;
+}
+
+/* ============================================
+   FOOTER STYLES
+   ============================================ */
+
+/* Footer background and spacing */
+.footer {
+  background-color: #2d3748;
+  color: white;
+  padding: 3rem 0 1rem;
+}
+
+/* Footer headings */
+.footer h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* Footer paragraphs */
+.footer p {
+  color: #cbd5e0;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer links list */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+/* Footer links list items */
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer links styling */
+.footer-links a {
+  color: #cbd5e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Footer links hover effect */
+.footer-links a:hover {
+  color: #667eea;
+}
+
+/* Footer bottom copyright section */
+.footer-bottom {
+  border-top: 1px solid #4a5568;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* Footer copyright text */
+.footer-bottom p {
+  color: #cbd5e0;
+  margin: 0;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - TABLET
+   ============================================ */
+
+/* Tablet styles (max-width: 991px) */
+@media (max-width: 991px) {
+  /* Reduce hero heading size */
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  /* Reduce hero paragraph size */
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  /* Reduce section title size */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /* Adjust product image height */
+  .product-image {
+    height: 220px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - MOBILE
+   ============================================ */
+
+/* Mobile styles (max-width: 767px) */
+@media (max-width: 767px) {
+  /* Reduce hero section padding */
+  .hero-section {
+    padding: 4rem 0;
+  }
+
+  /* Further reduce hero heading */
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  /* Further reduce hero paragraph */
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  /* Reduce products section padding */
+  .products-section {
+    padding: 3rem 0;
+  }
+
+  /* Further reduce section title */
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Adjust product image height */
+  .product-image {
+    height: 200px;
+  }
+
+  /* Center footer text on mobile */
+  .footer {
+    text-align: center;
+  }
+
+  /* Add spacing between footer columns */
+  .footer .col-md-4 {
+    margin-bottom: 2rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - SMALL MOBILE
+   ============================================ */
+
+/* Small mobile styles (max-width: 576px) */
+@media (max-width: 576px) {
+  /* Smallest hero heading */
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust hero button size */
+  .hero-content .btn {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+  }
+
+  /* Reduce brand logo size */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  /* Reduce product title size */
+  .product-info h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Reduce product price size */
+  .product-price {
+    font-size: 1.3rem;
+  }
+}

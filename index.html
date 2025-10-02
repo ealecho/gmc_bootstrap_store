@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title -->
+    <title>tees&more - We got it all</title>
+
+    <!-- Google Fonts - Public Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS framework for responsive grid and components -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- ============================================ -->
+    <!-- HEADER SECTION*** -->
+    <!-- ============================================ -->
+    <header class="header">
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Brand logo -->
+          <a class="navbar-brand" href="#">tees&more</a>
+
+          <!-- Mobile menu toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section with welcome message -->
+      <div class="hero-section" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Welcome to tees&more</h1>
+            <p>Discover amazing products at unbeatable prices</p>
+            <a href="#products" class="btn btn-light btn-lg">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- PRODUCTS SECTION -->
+    <!-- ============================================ -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+
+        <!-- Product grid using Bootstrap grid system -->
+        <!-- Responsive: 1 column on mobile, 2 on tablet, 3 on desktop -->
+        <div class="row g-4">
+          <!-- Product Card 1 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+                  alt="Classic White T-Shirt"
+                />
+              </div>
+              <div class="product-info">
+                <h3>Classic White Tee</h3>
+                <p>100% cotton essential tee with a comfortable relaxed fit</p>
+                <div class="product-price">$24.99</div>
+                <button class="btn btn-shop">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"
+                  alt="Graphic Print Tee"
+                />
+              </div>
+              <div class="product-info">
+                <h3>Graphic Print Tee</h3>
+                <p>Trendy printed t-shirt with unique artistic design</p>
+                <div class="product-price">$29.99</div>
+                <button class="btn btn-shop">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400"
+                  alt="Striped Long Sleeve"
+                />
+              </div>
+              <div class="product-info">
+                <h3>Striped Long Sleeve</h3>
+                <p>Stylish striped long sleeve tee perfect for layering</p>
+                <div class="product-price">$34.99</div>
+                <button class="btn btn-shop">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 4 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400"
+                  alt="Baseball Cap"
+                />
+              </div>
+              <div class="product-info">
+                <h3>Baseball Cap</h3>
+                <p>Adjustable cotton cap with embroidered logo detail</p>
+                <div class="product-price">$19.99</div>
+                <button class="btn btn-shop">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 5 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"
+                  alt="Hoodie"
+                />
+              </div>
+              <div class="product-info">
+                <h3>Comfort Hoodie</h3>
+                <p>
+                  Cozy pullover hoodie with front pocket and drawstring hood
+                </p>
+                <div class="product-price">$49.99</div>
+                <button class="btn btn-shop">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 6-->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400"
+                  alt="Tote Bag"
+                />
+              </div>
+              <div class="product-info">
+                <h3>Canvas Tote Bag</h3>
+                <p>Eco-friendly reusable tote bag with reinforced handles</p>
+                <div class="product-price">$16.99</div>
+                <button class="btn btn-shop">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER SECTION -->
+    <!-- ============================================ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Footer column 1: About -->
+          <div class="col-md-4">
+            <h4>About tees&more</h4>
+            <p>We bring you the latest trends in fashion and lifestyle.</p>
+          </div>
+
+          <!-- Footer column 2: Quick Links -->
+          <div class="col-md-4">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer column 3: Contact Info -->
+          <div class="col-md-4">
+            <h4>Contact Us</h4>
+            <p>Email: info@teesandmore.com</p>
+            <p>Phone: +254 (555) 123-4567</p>
+            <p>Address: 123 Fashion St, Nairobi</p>
+          </div>
+        </div>
+
+        <!-- Copyright notice -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 tees&more. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript for interactive components -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
