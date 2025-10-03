@@ -123,8 +123,6 @@ A responsive landing page for an online apparel store featuring modern design, s
 
 - **Semantic HTML**: Proper use of header, nav, section, footer tags
 - **Alt Text**: Descriptive alternative text for all images
-- **Color Contrast**: Text meets WCAG standards for readability
-- **Keyboard Navigation**: All interactive elements are keyboard accessible
 - **Responsive Meta Tag**: Ensures proper rendering on mobile devices
 
 
