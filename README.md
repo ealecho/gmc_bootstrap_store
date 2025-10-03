@@ -5,30 +5,34 @@ A responsive landing page for an online apparel store featuring modern design, s
 ## Screenshots
 
 ### Desktop View
-![Desktop Header](screenshots/Screenshot%202025-10-02%20at%2015.16.00.png)
-*Hero section*
+![Desktop Header](screenshots/Screenshot%202025-10-03%20at%2019.38.02.png)
+*Hero section with elegant black theme*
 
-![Desktop Products](screenshots/Screenshot%202025-10-02%20at%2015.16.09.png)
+![Desktop Products](screenshots/Screenshot%202025-10-03%20at%2019.38.11.png)
 *Product grid showing 3-column layout*
 
-![Desktop Footer](screenshots/Screenshot%202025-10-02%20at%2015.16.15.png)
+![Desktop Footer](screenshots/Screenshot%202025-10-03%20at%2019.38.18.png)
 *Footer with contact information and links*
 
 ### Mobile View
-![Mobile View 1](screenshots/Screenshot%202025-10-02%20at%2015.27.11.png)
+![Mobile View 1](screenshots/Screenshot%202025-10-03%20at%2019.39.05.png)
 *Mobile responsive design with hamburger menu*
 
-![Mobile View 2](screenshots/Screenshot%202025-10-02%20at%2015.28.08.png)
+![Mobile View 2](screenshots/Screenshot%202025-10-03%20at%2019.39.35.png)
 *Mobile product cards in single column layout*
+
+![Mobile View 3](screenshots/Screenshot%202025-10-03%20at%2019.39.43.png)
+*Mobile footer section*
 
 ## Design Choices
 
 ### 1. **Color Scheme**
-- **Primary Gradient**: Purple to indigo gradient (`#667eea` to `#764ba2`)
-  - Creates a modern, vibrant look that stands out and is applied to header, buttons, and accent elements for brand consistency
+- **Primary Gradient**: Elegant black gradient (`#1a1a1a` to `#000000`)
+  - Creates professional look applied to header, buttons, and accent elements for brand consistency
 - **Neutral Background**: Light gray (`#f8f9fa`) for products section that provides contrast and makes product cards pop
 - **Dark Footer**: Charcoal gray (`#2d3748`) 
   - Grounds the design and separates content sections clearly
+- **Monochrome Theme**: Black and white palette for timeless elegance
 
 ### 2. **Typography**
 - **Font Family**: Public Sans from Google Fonts

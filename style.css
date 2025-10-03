@@ -22,7 +22,7 @@ body {
 
 /* Header with gradient background */
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
   color: white;
 }
 
@@ -183,13 +183,13 @@ body {
 .product-price {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #667eea;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
 /* Shop Now button styling */
 .btn-shop {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
   color: white;
   border: none;
   padding: 0.75rem 2rem;
@@ -250,7 +250,7 @@ body {
 
 /* Footer links hover effect */
 .footer-links a:hover {
-  color: #667eea;
+  color: #ffffff;
 }
 
 /* Footer bottom copyright section */
